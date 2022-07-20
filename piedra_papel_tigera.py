@@ -39,7 +39,7 @@ Piedra \u270A, Papel \u270B  o ¡Tijeras! \u270C\uFE0F
 3- Tijera \u2702\uFE0F
 
 Selecciona una opción: ''')
-    while eleccion_jugador == 1 or eleccion_jugador == 2 or eleccion_jugador == 3:
+    while eleccion_jugador == (1, 3):
         continue
     if eleccion_jugador == '1':
         piedra_papel_tijera('piedra')
